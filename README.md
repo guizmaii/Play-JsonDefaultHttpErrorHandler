@@ -1,0 +1,2 @@
+# Play-JsonDefaultHttpErrorHandler
+Play JsonDefaultHttpErrorHandler test project
