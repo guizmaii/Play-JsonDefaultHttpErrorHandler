@@ -1,11 +1,12 @@
 package controllers
 
+import play.api.libs.json.Json
 import play.api.mvc._
 
 class HomeController(cc: ControllerComponents) extends AbstractController(cc) {
 
   def index() = Action { implicit request: Request[AnyContent] =>
-    Ok("Hello World")
+    Ok(Json.obj("answer" -> "Hello World"))
   }
 
   def exception() = Action {
