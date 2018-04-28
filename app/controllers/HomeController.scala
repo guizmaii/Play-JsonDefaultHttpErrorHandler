@@ -8,4 +8,10 @@ class HomeController(cc: ControllerComponents) extends AbstractController(cc) {
     Ok("Hello World")
   }
 
+  def exception() = Action {
+    throw new RuntimeException("This is an error message")
+
+    Ok("will never be called")
+  }
+
 }
