@@ -11,11 +11,11 @@ import play.filters.HttpFiltersComponents
 /**
   * Application loader that wires up the application dependencies using Macwire
   */
-class AppApplicationLoader extends ApplicationLoader {
+final class AppApplicationLoader extends ApplicationLoader {
   def load(context: Context): Application = new App(context).application
 }
 
-class App(context: Context) extends BuiltInComponentsFromContext(context) with HttpFiltersComponents {
+final class App(context: Context) extends BuiltInComponentsFromContext(context) with HttpFiltersComponents {
 
   // set up logger
   LoggerConfigurator(context.environment.classLoader).foreach {
