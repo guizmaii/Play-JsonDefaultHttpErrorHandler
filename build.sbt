@@ -1,7 +1,7 @@
-name := """PlayScala-JsonDefaultHttpErrorHandler"""
+name := """PlayScala-CompileTimeDI-JsonDefaultHttpErrorHandler"""
 organization := "com.guizmaii"
 
-version := "1.0-SNAPSHOT"
+version := "1.0"
 
 scalafmtOnCompile := true
 scalafmtCheck := true
