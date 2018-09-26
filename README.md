@@ -1,8 +1,8 @@
-# PlayScala-JsonDefaultHttpErrorHandler
+# PlayScala-CompileTimeDI-JsonHttpErrorHandler
 
-Play Scala `JsonDefaultHttpErrorHandler` test project.
+Play Scala (with compile time DI) `JsonHttpErrorHandler` example project.
 
-## Instructions to test the new `JsonDefaultHttpErrorHandler`
+## Instructions to test the new `JsonHttpErrorHandler`
 
 1. Publish a local version of Play   
     1.1 `$ git clone https://github.com/guizmaii/playframework`   

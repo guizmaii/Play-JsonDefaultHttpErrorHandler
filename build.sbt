@@ -1,4 +1,4 @@
-name := """PlayScala-CompileTimeDI-JsonDefaultHttpErrorHandler"""
+name := """PlayScala-CompileTimeDI-JsonHttpErrorHandler"""
 organization := "com.guizmaii"
 
 version := "1.0"
